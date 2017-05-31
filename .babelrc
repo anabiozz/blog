@@ -1,0 +1,3 @@
+{
+  "presets": ["es2015", "stage-0", "react"] //support for ES2015, ES7 and JSX
+}
