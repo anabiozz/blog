@@ -16,6 +16,7 @@ let routes = routesFull;
 
 console.log('CORE_URL: ' + process.env.CORE_URL);
 let state = store.getState();
+console.log(state.user);
 
 ReactDOM.render(
     <Provider store={store}>

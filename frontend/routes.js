@@ -8,7 +8,9 @@ import Layout from './containers/Layout';
 
 //components
 
-export default () => {
+export default (user) => {
+
+    user;
     const core_url = process.env.CORE_URL ? process.env.CORE_URL : '/';
 
     return (

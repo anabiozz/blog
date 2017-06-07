@@ -11,7 +11,7 @@ const initialState = {
   name: 'Unknown',
   errors: null,
   success: false
-}
+};
 
 export default function user(state = initialState, action) {
   switch (action.type) {
