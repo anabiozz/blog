@@ -1,7 +1,7 @@
 const configUser = {
     name: 'root',
     provider: 'local',
-    password: ''
+    password: '123456'
 }
 
 export default configUser;
