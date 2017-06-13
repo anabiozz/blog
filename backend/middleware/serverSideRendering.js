@@ -86,6 +86,7 @@ function renderPage(appHtml, store) {
   return `<!DOCTYPE html>
     <html>
     <head>
+      <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">    
       <!-- Latest compiled and minified CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
       <!-- Optional theme -->

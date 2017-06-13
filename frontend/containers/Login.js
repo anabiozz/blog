@@ -9,7 +9,7 @@ class Login extends React.Component {
         return (<div className="container">
             <h1>Select your ADFS to sign in:</h1>
             <div className="row">
-                <div className="col-xs-4 adfs-item">
+                <div className="col-xs-4 signin">
                     <Link to={process.env.CORE_URL+'signin'}>Local sign in</Link>
                 </div>
             </div>

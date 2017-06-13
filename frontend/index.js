@@ -7,7 +7,6 @@ import Router from 'react-router/lib/Router';
 //import App from './containers/Dashboard'
 import configureStore from './store/index';
 import routesFull from './routes';
-import './styles/app.css';
 
 const store = configureStore(window.__INITIAL_STATE__);
 delete window.__INITIAL_STATE__;

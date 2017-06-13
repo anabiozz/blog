@@ -1,6 +1,6 @@
-let path = require('path');
-let webpack = require('webpack');
-let core_url = process.env.CORE_URL ? process.env.CORE_URL : '/';
+var path = require('path');
+var webpack = require('webpack');
+var core_url = process.env.CORE_URL ? process.env.CORE_URL : '/';
 
 module.exports = {
     devtool: 'cheap-module-eval-source-map',

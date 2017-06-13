@@ -91,8 +91,6 @@ app.use(parallel([
     bodyParser.json()
 ]));
 
-// app.use(bodyParser.urlencoded({ extended: false }));
-
 app.get(root+'blog', blog.getAllPosts);
 app.get(root+'blog/new', blog.blog);
 app.post(root+'blog/new', blog.newPost);
